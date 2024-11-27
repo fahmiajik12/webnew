@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="dist/css/style.css" />
+  <title>Wisata Bali</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="container">
+        <div class="box-navbar">
+          <div class="logo">
+            <img src="assets/img/pi.png" alt="Wisata Bali" style="width: 100%; max-width: 200px; height: auto;">
+          </div>
+          <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Wisata">Wisata</a></li>
+            <li><a href="#daftar">Daftar</a></li>
+          </ul>
+          <i class="fa-solid fa-bars menu-bar"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="container">
+        <div class="box-hero">
+          <div class="box">
+            <h1>
+              Liburan Terbaik di Bali <br />
+              Nikmati Keindahan Alam
+            </h1>
+            <p>Bali adalah destinasi impian bagi banyak orang. Dengan pantai yang indah, budaya yang kaya, dan makanan
+              yang lezat, Bali menawarkan pengalaman liburan yang tak terlupakan. Temukan berbagai tempat menarik untuk
+              dikunjungi dan aktivitas yang bisa dilakukan selama berada di pulau yang terkenal ini.</p>
+          </div>
+          <div class="box">
+            <img src="assets/img/Hero.png" alt="Bali Hero Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <div class="services" id="services">
+    <div class="container">
+      <div class="box-services">
+        <div class="box" onclick="toggleActive(this)">
+          <i class="fa-solid fa-coins"></i>
+          <h4>Harga Terjangkau</h4>
+          <p>Liburan di Bali tidak harus mahal. Kami menawarkan paket wisata yang terjangkau untuk semua orang, sehingga
+            Anda bisa menikmati keindahan Bali tanpa khawatir menguras dompet.</p>
+        </div>
+        <div class="box" onclick="toggleActive(this)">
+          <i class="fa-solid fa-certificate"></i>
+          <h4>Sudah Tersertifikasi</h4>
+          <p>Wisata kami telah tersertifikasi, memberikan Anda jaminan layanan yang profesional dan berkualitas untuk
+            pengalaman liburan yang lebih baik.</p>
+        </div>
+        <div class="box" onclick="toggleActive(this)">
+          <i class="fa-solid fa-people-roof"></i>
+          <h4>Aman dan Ramah</h4>
+          <p>Kenyamanan dan keamanan Anda adalah prioritas kami. Tim kami selalu siap membantu, memastikan perjalanan
+            wisata Anda berjalan dengan lancar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services -->
+
+  <!-- Wisata -->
+  <div class="Wisata" id="Wisata">
+    <div class="container">
+      <div class="box-Wisata">
+        <div class="box">
+          <img src="assets/img/Wisata1.jpg" alt="" />
+          <h3>Pura Tanah Lot</h3>
+          <p style="font-size: 14px; line-height: 1.6; text-align: justify;">
+            Pura Tanah Lot adalah salah satu pura yang paling terkenal di Bali, terletak di atas batu karang di tepi
+            laut.
+            Tempat ini menawarkan pemandangan yang menakjubkan, terutama saat matahari terbenam, menjadikannya sebagai
+            destinasi yang wajib dikunjungi saat berada di Bali.
+          </p>
+          <p style="font-weight: bold; color: #4CAF50; text-align: justify;">
+            <strong>Kalender Event:</strong> Upacara keagamaan diadakan setiap bulan pada tanggal <span
+              style="color: #FF5722;">15 dan 30</span>.
+          </p>
+          <p style="font-weight: bold; text-align: justify;">
+            <strong>Panduan Perjalanan:</strong> Rencanakan kunjungan Anda saat sore hari untuk menikmati matahari
+            terbenam dan pastikan untuk memeriksa jadwal acara khusus di pura.
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/img/Wisata2.jpg" alt="" />
+          <h3>Ubud Monkey Forest</h3>
+          <p style="font-size: 14px; line-height: 1.6; text-align: justify;">
+            Hutan Monyet Ubud adalah cagar alam dan tempat wisata yang terkenal dengan populasi monyetnya yang ramah.
+            Di sini, Anda dapat berjalan-jalan di antara pepohonan yang rimbun, menikmati keindahan alam, dan
+            berinteraksi dengan monyet-monyet yang berkeliaran bebas.
+          </p>
+          <p style="font-weight: bold; color: #4CAF50; text-align: justify;">
+            <strong>Kalender Event:</strong> Acara edukasi tentang konservasi hewan biasanya diadakan setiap <span
+              style="color: #FF5722;">Sabtu terakhir bulan</span>.
+          </p>
+          <p style="font-weight: bold; text-align: justify;">
+            <strong>Panduan Perjalanan:</strong> Kunjungi pada pagi hari untuk pengalaman yang lebih tenang dan hindari
+            membawa makanan agar tidak menarik perhatian monyet.
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/img/Wisata3.jpg" alt="" />
+          <h3>Pasar Seni Ubud</h3>
+          <p style="font-size: 14px; line-height: 1.6; text-align: justify;">
+            Pasar Seni Ubud adalah pasar yang ramai di mana Anda bisa menemukan berbagai kerajinan tangan, seni, dan
+            makanan khas Bali.
+            Ini adalah tempat yang sempurna untuk berbelanja oleh-oleh dan merasakan budaya lokal sambil menikmati
+            suasana yang hidup.
+          </p>
+          <p style="font-weight: bold; text-align: justify; color: #4CAF50;">
+            <strong>Kalender Event:</strong> Acara seni dan kerajinan lokal biasanya diadakan pada <span
+              style="color: #FF5722;">tanggal 5 setiap bulan</span>.
+          </p>
+          <p style="font-weight: bold; text-align: justify;">
+            <strong>Panduan Perjalanan:</strong> Kunjungi pagi hari untuk menghindari keramaian dan nikmati sarapan di
+            kafe-kafe sekitarnya.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Wisata -->
+
+  <!-- Daftar -->
+  <div class="daftar" id="daftar">
+    <div class="container">
+      <div class="box-daftar">
+        <h1>
+          Ingin Berlibur di Bali? <br />
+          Daftarkan Keluarga Anda Segera!
+        </h1>
+        <h3>Klik Link di Bawah Ini!</h3>
+        <button onclick="window.location.href='https://wa.me/6283197782516';">
+          <i class="fa-brands fa-whatsapp"></i> Whatsapp
+        </button>
+        
+        <button onclick="window.location.href='mailto:nafisahsyarifah1@gmail.com';">
+          <i class="fa-regular fa-envelope"></i> Gmail
+        </button>
+        
+        <button onclick="window.location.href='https://www.instagram.com/liburandestinasi_bali';">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Daftar -->
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="box-footer">
+        <div class="box">
+        </div>
+        <div class="box">
+          <p>&copy; Copyright by <span>Wisata Bali</span> All Rights Reserved 2024, Indonesia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <script src="dist/js/script.js"></script>
+</body>
+
+</html>
